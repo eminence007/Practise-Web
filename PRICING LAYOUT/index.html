@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Layout</title>
+    <style>
+       #top {
+        text-align: center;
+        margin: auto;
+        width: 38%;
+       }
+       #top > h1 {
+        font-size: 37.5px;
+        padding: 0px 30px;
+       }
+
+       #top > p {
+        color: gray;
+        font-size: 17.5px;
+        line-height: 25px;
+        margin-top: -10px;
+       }
+       #container {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        margin-top: 70px;
+       }
+       div > div {
+        width: 27%;
+        margin: auto;
+        padding: 7px 15px 35px 15px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       }
+       div > div > button {
+        background-color: white;
+        border: 1px solid blue;
+        color: blue;
+        font-size: 20px;
+        padding: 15px 40px;
+        margin-top: 20px;
+        border-radius: 8px;
+        font-weight: bold;
+       }
+       div > div > p {
+        padding: 0px 15px;
+        line-height: 25px;
+        }
+       div > div > h1 {
+        color: green;
+        }
+
+        div > div > h1 + p {
+        margin-top: -20px;
+        font-style: italic;
+        font-size: 15px;
+       }
+       #yellow {
+        color: rgb(255, 196, 2);
+       }
+       #blue {
+        color: blue;
+       }
+
+    </style>
+</head>
+<body>
+    <div id="top">
+        <h1>Choose a plan that right for your business</h1>
+        <p>We collect reviews from our users so can get honest opinion of what an experience with our website are really like!</p>
+    </div>
+    <div id="container">
+        <div>
+            <h2>Starter Plan</h2>
+            <h1>Free</h1>
+            <p>Per month</p>
+            <p>We collect reviews from our users so can get honest opinion of what an experience with our website</p>
+            <button>Start Now</button>
+        </div>
+
+        <div>
+            <h2>Starter Plan</h2>
+            <h1 id="yellow">$39.00</h1>
+            <p>Per month</p>
+            <p>We collect reviews from our users so can get honest opinion of what an experience with our website</p>
+            <button>Start Now</button>
+        </div>
+
+        <div>
+            <h2>Starter Plan</h2>
+            <h1 id="blue">$59.00</h1>
+            <p>Per month</p>
+            <p>We collect reviews from our users so can get honest opinion of what an experience with our website</p>
+            <button>Start Now</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
